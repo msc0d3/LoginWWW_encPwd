@@ -4,8 +4,8 @@
 based on Leaf.Xnet and Sodium.Core Library rewriten in .net framework 4.6
 
 ## ⚠️ Install all Library on packages.config
-
-
+## ⚠️ Donwload libsodium.dll from dlls and add to current debug folder
+## ⚠️ ( VN ) tải thư viện libsodium.dll trong thư mục dlls và đưa vào thư mục debug để chạy được code nha !
 ## Based librarys
 
 - [@Leaf.xNet](https://github.com/csharp-leaf)
