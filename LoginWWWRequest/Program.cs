@@ -49,6 +49,8 @@ namespace LoginWWWRequest
                 Secure = true,
                 Expires = DateTime.Now.AddDays(10)
             }); // add cookie datr to header
+            Console.WriteLine("Password Encrypted : " + passwordEnc);
+            Console.WriteLine();
             EnsurePostWWWLoginHDFull(httpRequest);
             var body = $"jazoest={jazoest}&lsd={lsd}&email={user}&login_source=comet_headerless_login&next=&encpass={WebUtility.UrlEncode(passwordEnc)}";
             httpResponse = httpRequest.Post("https://www.facebook.com/login/?privacy_mutation_token=", body, "application/x-www-form-urlencoded");
