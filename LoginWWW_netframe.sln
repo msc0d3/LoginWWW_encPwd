@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginWWW_netframe", "LoginWWW_netframe\LoginWWW_netframe.csproj", "{466921E4-02A7-4769-B536-4B17A07835BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginWWWRequest", "LoginWWWRequest\LoginWWWRequest.csproj", "{B14C8528-B1E9-45C4-911D-E872E252C41A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{466921E4-02A7-4769-B536-4B17A07835BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466921E4-02A7-4769-B536-4B17A07835BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466921E4-02A7-4769-B536-4B17A07835BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466921E4-02A7-4769-B536-4B17A07835BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14C8528-B1E9-45C4-911D-E872E252C41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14C8528-B1E9-45C4-911D-E872E252C41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14C8528-B1E9-45C4-911D-E872E252C41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14C8528-B1E9-45C4-911D-E872E252C41A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04F5A47F-AF14-4E8A-ACB9-02298520F01C}
+	EndGlobalSection
+EndGlobal
